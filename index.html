@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ChatBook Social Media | Facebook Clone</title>
+</head>
+<body>
+  
+  <nav>
+    <img src="images/chatbook-logo.png" class="logo">
+    <div class="nav-left-section">
+      <ul>
+        <li><img src="icons/notification.png"></li>
+        <li><img src="icons/inbox.png"></li>
+        <li><img src="icons/video.png"></li>
+      </ul>
+    </div>
+    <div class="nav-right-section">
+      <div class="search-icon">
+        <img src="icons/search.png">
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="user-icon online" onclick="dropDownSettingsToggle()">
+        <img src="images/profile-photo.jpg">
+    </div>
+
+    <!-- THIS IS THE DROP DOWN MENU SETTINGS -->
+    <div class="drop-down-settings">
+
+      <div id="dark-btn">
+        <span></span>
+      </div>
+
+      <div class="drop-down-menu-design">
+        <div class="user-info">
+          <img src="images/profile-photo.jpg">
+          <div>
+            <p>Christopher John</p>
+            <a href="#">See your profile</a>
+          </div>
+      </div>
+      <hr>
+      <div class="user-info">
+        <img src="icons/feedback.png">
+        <div>
+          <p>Give Feedback</p>
+          <a href="#">Help me improve on my work</a>
+        </div>
+    </div>
+    <hr>
+    <div class="redirect-links">
+      <img src="icons/setting.png" class="redirect-icons">
+      <a href="#">Privacy & Settings <img src="icons/arrow.png" width="8px"></a>
+    </div>
+
+    <div class="redirect-links">
+      <img src="icons/help.png" class="redirect-icons">
+      <a href="#">Help & Support <img src="icons/arrow.png" width="8px"></a>
+    </div>
+    
+    <div class="redirect-links">
+      <img src="icons/display.png" class="redirect-icons">
+      <a href="#">Display & Accessibility <img src="icons/arrow.png" width="8px"></a>
+    </div>
+
+    <div class="redirect-links">
+      <img src="icons/logout.png" class="redirect-icons">
+      <a href="#">Logout <img src="icons/arrow.png" width="8px"></a>
+    </div>
+
+    </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!-- THIS IS THE LEFT SIDE TIMELINE -->
+    <div class="left-side-timeline">
+      <div class="left-side-link">
+        <a href="#"><img src="icons/news.png"> Latest News</a>
+        <a href="#"><img src="icons/friends.png"> Friends</a>
+        <a href="#"><img src="icons/group.png"> Group</a>
+        <a href="#"><img src="icons/marketplace.png"> Market Place</a>
+        <a href="#"><img src="icons/watch.png"> Watch</a>
+        <a href="#">See More</a>
+      </div>
+      
+      <!-- SHORTCUT LINKS -->
+      <div class="shortcut-links">
+        <p>Your Shortcuts</p>
+        <a href="#"><img src="images/shortcut-1.jpg"> Digital Marketing</a>
+        <a href="#"><img src="images/shortcut-2.jpg"> Customer Care</a>
+        <a href="#"><img src="images/shortcut-3.jpg"> Web Development</a>
+        <a href="#"><img src="images/shortcut-4.jpg"> Data Analysis</a>
+      </div>
+    </div>
+
+    <!-- THIS IS THE MAIN TIMELINE -->
+    <div class="main-timeline">
+
+      <div class="main-story">
+        <div class="profile-story main">
+          <img src="icons/upload.png">
+          <p>Post Story</p>
+        </div>
+
+        <div class="profile-story one">
+          <img src="images/conversation03.jpg">
+          <p>Amina Garba</p>
+        </div>
+
+        <div class="profile-story two">
+          <img src="images/status-7.jpg">
+          <p>Kelvin Zion</p>
+        </div>
+
+        <div class="profile-story three">
+          <img src="images/status-8.jpg">
+          <p>Bisi Idowu</p>
+        </div>
+
+        <div class="profile-story four">
+          <img src="images/conversation01.jpg">
+          <p>Zubby Amadi</p>
+        </div>
+      </div>
+
+      <div class="first-container">
+        <div class="user-info">
+          <img src="images/profile-photo.jpg">
+          <div>
+            <p>Christopher John</p>
+            <small>Public &#9660</small>
+          </div>
+        </div>
+
+        <div class="post-container">
+          <textarea rows="3" placeholder="What's on your mind ?"></textarea>
+
+          <div class="post-container-icons">
+            <a href="#"><img src="icons/live-video.png"> Live Video</a>
+            <a href="#"><img src="icons/photo.png"> Photo/Video</a>
+            <a href="#"><img src="icons/feeling.png"> Feeling/Activity</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-container">
+        <div class="user-info">
+          <img src="images/profile-photo.jpg">
+          <div>
+            <p>Christopher John <span>&#8942</span></p>
+            <small>February 15 2023, 14:34pm </small>
+          </div>
+        </div>
+        <p class="user-info-tag">Memories that are built during family getaways and vacations are rarely forgotten by children, 
+          so make it a habit and a tradition. <span>&#x23;VacationLoversSinceBirth.</span></p>
+          <img src="images/photo-2.jpg" class="user-info-img">
+
+          <div class="reactions">
+            <div class="reactions-icons">
+              <div><img src="icons/like-blue.png"> 8k</div>
+              <div><img src="icons/comments.png"> 450</div>
+              <div><img src="icons/share.png"> 200</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="middle-container">
+        <div class="user-info">
+          <img src="images/profile-photo.jpg">
+          <div>
+            <p>Christopher John <span>&#8942</span></p>
+            <small>June 30 2023, 6:34pm </small>
+          </div>
+        </div>
+        <p class="user-info-tag">May every sunrise hold more promise and every sunset hold more peace, Every sunset is an opportunity to reset. <span>&#x23;VacationLoversSinceBirth.</span></p>
+          <img src="images/member-4.jpg" class="user-info-img">
+
+          <div class="reactions">
+            <div class="reactions-icons">
+              <div><img src="icons/like-blue.png"> 4k</div>
+              <div><img src="icons/comments.png"> 300</div>
+              <div><img src="icons/share.png"> 270</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="middle-container">
+        <div class="user-info">
+          <img src="images/profile-photo.jpg">
+          <div>
+            <p>Christopher John <span>&#8942</span></p>
+            <small>December 15 2023, 14:34pm </small>
+          </div>
+        </div>
+        <p class="user-info-tag">Be willing to walk alone.Many who started with you won’t finish with you, Walk on, walk on with hope in your heart. <span>&#x23;VacationLoversSinceBirth.</span></p>
+          <img src="images/photo-1.jpg" class="user-info-img">
+
+          <div class="reactions">
+            <div class="reactions-icons">
+              <div><img src="icons/like-blue.png"> 600</div>
+              <div><img src="icons/comments.png"> 450</div>
+              <div><img src="icons/share.png"> 200</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="middle-container">
+        <div class="user-info">
+          <img src="images/profile-photo.jpg">
+          <div>
+            <p>Christopher John <span>&#8942</span></p>
+            <small>April 24 2022, 14:34pm </small>
+          </div>
+        </div>
+        <p class="user-info-tag">Days well spent are those with friends, The best memories are good times with crazy friends. <span>&#x23;VacationLoversSinceBirth.</span></p>
+          <img src="images/feed-1.jpg" class="user-info-img">
+
+          <div class="reactions">
+            <div class="reactions-icons">
+              <div><img src="icons/like-blue.png"> 18k</div>
+              <div><img src="icons/comments.png"> 450</div>
+              <div><img src="icons/share.png"> 200</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="middle-container">
+        <div class="user-info">
+          <img src="images/profile-photo.jpg">
+          <div>
+            <p>Christopher John <span>&#8942</span></p>
+            <small>February 15 2020, 14:34pm </small>
+          </div>
+        </div>
+        <p class="user-info-tag">Don't wait until you've reached your goal to be proud of yourself. Be proud of every step you take toward reaching that goal. <span>&#x23;VacationLoversSinceBirth.</span></p>
+          <img src="images/feed-2.jpg" class="user-info-img">
+
+          <div class="reactions">
+            <div class="reactions-icons">
+              <div><img src="icons/like-blue.png"> 17k</div>
+              <div><img src="icons/comments.png"> 600</div>
+              <div><img src="icons/share.png"> 800</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="middle-container">
+        <div class="user-info">
+          <img src="images/profile-photo.jpg">
+          <div>
+            <p>Christopher John <span>&#8942</span></p>
+            <small>October 15 2021, 14:34pm </small>
+          </div>
+        </div>
+        <p class="user-info-tag">To me, there’s nothing more special than providing food for other families, and that’s what we do out here. <span>&#x23;VacationLoversSinceBirth.</span></p>
+          <img src="images/member-2.jpg" class="user-info-img">
+
+          <div class="reactions">
+            <div class="reactions-icons">
+              <div><img src="icons/like-blue.png"> 900</div>
+              <div><img src="icons/comments.png"> 450</div>
+              <div><img src="icons/share.png"> 200</div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+    <!-- THIS IS THE RIGHT TIMELINE -->
+    <div class="right-side-timeline">
+
+      <div class="right-side-timeline-title">
+        <h2>Events</h2>
+        <a href="#">See All</a>
+      </div>
+
+      <div class="upcoming-activities">
+        <div class="left-activities">
+          <h3>22</h3>
+          <span>June</span>
+        </div>
+
+        <div class="right-activities">
+          <h2>Growth in Tech</h2>
+          <p><img src="icons/location.png">Garki Park</p>
+          <a href="#">More Info</a>
+        </div>
+    </div>
+
+    <div class="upcoming-activities">
+      <div class="left-activities">
+        <h3>22</h3>
+        <span>July</span>
+      </div>
+
+      <div class="right-activities">
+        <h2>Social Media Hack</h2>
+        <p><img src="icons/location.png">Maitama Park</p>
+        <a href="#">More Info</a>
+      </div>
+  </div>
+
+  <div class="advert-display">
+    <h2>Advertisement</h2>
+    <a href="#">Close</a>
+  </div>
+  <img src="images/advertisement01.jpg" class="ads-img">
+
+  <div class="advert-display-bottom">
+    <h2>Conversation</h2>
+    <a href="#">Hide Chat</a>
+  </div>
+    
+  <div class="conversation-list">
+    <div class="online">
+      <img src="images/conversation01.jpg">
+    </div>
+    <p>Abayomi Kelechi</p>
+  </div>
+
+  <div class="conversation-list">
+    <div class="online">
+      <img src="images/conversation02.jpg">
+    </div>
+    <p>Halima Simon</p>
+  </div>
+
+  <div class="conversation-list">
+    <div class="online">
+      <img src="images/conversation03.jpg">
+    </div>
+    <p>Habibathu Jubril</p>
+  </div>
+  </div>
+</div>
+<div>
+  <button type="button" class="btn">Load More</button>
+
+  <footer class="main-footer">
+    <p>
+      Copyright &copy; 2023 Made By <a href="#"> /Ushie\.</a>
+    </p>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
