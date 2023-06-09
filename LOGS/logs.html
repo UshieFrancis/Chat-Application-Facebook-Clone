@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="chatbook-logo.png">
+  <link rel="stylesheet" href="logs.css">
+  <title>Login | ChatBook</title>
+</head>
+<body>
+  
+  <h2 class="log">Login Form</h2>
+    <!--Step 1 : Adding HTML-->
+    <form action="/action_page.php">
+        <div class="imgcontainer">
+          <img src="chatbook-logo.png" class="logo" alt="chatbook logo">
+        </div>
+ 
+        <div class="container">
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+ 
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+ 
+            <button type="submit">Login</button>
+            <input type="checkbox" checked="checked"> Remember me
+        </div>
+ 
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+
+</body>
+</html>
